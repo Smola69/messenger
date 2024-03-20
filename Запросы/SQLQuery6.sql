@@ -1,0 +1,4 @@
+CREATE TABLE Contents (
+Content_ID INT PRIMARY KEY IDENTITY(1,1),
+Text_Message VARCHAR(1000),
+Image_Message VARBINARY(MAX))

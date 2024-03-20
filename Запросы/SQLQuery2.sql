@@ -1,0 +1,7 @@
+CREATE TABLE Users (
+User_ID INT PRIMARY KEY IDENTITY(1,1),
+User_Login VARCHAR(16) NOT NULL,
+User_Name	VARCHAR(50) NOT NULL,
+User_Password VARCHAR(28) NOT NULL,
+User_Phone_Number VARCHAR(12),
+User_Email VARCHAR(50))
